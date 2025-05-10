@@ -1,0 +1,5 @@
+txt=input("Enter text: ")
+mf=open("D:\\Programming\\Python\\listings\\listings7\\mytext.txt","w")
+mf.write(txt)
+mf.close()
+print("The text is written in the file.")

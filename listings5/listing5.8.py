@@ -1,0 +1,10 @@
+txt="We learn Python language"
+print(txt)
+A=txt.replace(" ","_*_")
+print(A)
+B=txt.replace(" ","\n")
+print(B)
+C=txt.replace(" "," don't ",1).replace("Python","Java")
+print(C)
+D=txt.replace(" language", "")
+print(D)

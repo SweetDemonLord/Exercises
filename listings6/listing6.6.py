@@ -1,0 +1,10 @@
+def show(first, second="Bravo", third="Charlie"):
+    print(f"[1] - {first}")
+    print(f"[2] - {second}")
+    print(f"[3] - {third}")
+    print("-"*13)
+show("Alpha")
+show("A","B","C")
+show(10,20)
+show(100, third=300)
+show(third="third", first="first")

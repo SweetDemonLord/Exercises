@@ -1,0 +1,28 @@
+
+from datetime import datetime
+
+md=datetime(2024,11,14,13,27,45)
+print("Date and time:", md)
+print("Year:", md.year)
+print("Month:", md.month)
+print("Day:", md.day)
+print("Hour:", md.hour)
+print("Minute:", md.minute)
+print("Seconds:", md.second)
+print("The day of the week:", md.weekday())
+print("The day of the week:", md.isoweekday())
+d=md.date()
+print("Date:", d)
+t=md.time()
+print("Time:", t)
+nd=md.replace(1985,day=3,second=15)
+print("Date and time:", nd)
+nd=datetime.fromisoformat("1998-08-12 11:25:36")
+print("New date and time:", nd)
+td=datetime.today()
+print("Today and now:",td)
+delta=md-td
+print("Time interval:", delta)
+print("Days:", delta.days)
+print("Seconds:", delta.seconds)
+print("Interval in seconds:", delta.total_seconds())

@@ -1,0 +1,5 @@
+text=tuple(input('Enter text: '))
+print("Initial value:",text)
+n=int(input('Enter a increment: '))
+new_text=tuple(text[k] for k in range(len(text)) if k%n==0)
+print("Result:", new_text)
